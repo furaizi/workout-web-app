@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Training web app</title>
+        <title>Workout web app</title>
         <link href="style.css" type="text/css" rel="stylesheet">
     </head>
     <body>

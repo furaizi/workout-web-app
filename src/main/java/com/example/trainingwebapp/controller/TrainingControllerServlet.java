@@ -22,7 +22,7 @@ import javax.sql.DataSource;
 import java.io.IOException;
 import java.util.*;
 
-@WebServlet("/training-web-app")
+@WebServlet("/workout-web-app")
 public class TrainingControllerServlet extends HttpServlet {
 
     private static final Integer INITIAL_ROW_ID = 2;

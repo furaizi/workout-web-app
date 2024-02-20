@@ -29,6 +29,6 @@ public class SetCookieServlet extends HttpServlet {
 
         oldCookies = updatedCookies;
         response.addCookie(userIdcookie);
-        response.sendRedirect("/training-web-app");
+        response.sendRedirect("/workout-web-app");
     }
 }

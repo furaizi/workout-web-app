@@ -14,7 +14,7 @@
 
 <c:set var="training" value="${requestScope.training}" />
 
-<form action="training-web-app" method="POST">
+<form action="workout-web-app" method="POST">
     <a href="training/index.jsp">
         <input type="submit" value="Назад" class="back-button" />
     </a>
@@ -22,7 +22,7 @@
 </form>
 
 <br/>
-<form action="training-web-app" method="POST">
+<form action="workout-web-app" method="POST">
 
     <input type="hidden" name="command" value="UPDATE" />
     <input type="hidden" id="map" name="rowsAndExercises" value="" />

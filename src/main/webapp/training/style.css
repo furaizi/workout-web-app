@@ -1,0 +1,260 @@
+.training-name-field {
+  font-size: 30px;
+  width: 80%;
+  border: 0px;
+  margin-top: 125px;;
+  margin-left: 10%;
+  border-bottom: 2px solid #e8e8e8;
+  text-align: center;
+}
+
+.training-name-field:focus {
+  outline: 0;
+}
+
+p {
+  font-family: "Gill Sans", sans-serif;
+}
+
+/* Table */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    background-color: #F2EFE5;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    min-width: 625px;
+  }
+
+  .wrapper > div {
+    border: 2px solid #ffa94d;
+    /*border: 2px solid #ffdeab;*/
+    border-radius: 5px;
+    background-color: #ffd8a8;
+    /*background-color: #FFE7C1;*/
+    padding: 1em;
+    color: #d9480f;
+    /*color: #E36414;*/
+    /*color: #cf570c;*/
+    text-align: center;
+    font-family: "Cambria", sans-serif;
+  }
+
+  .column-3,.column-4,.column-5 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: flex-start;
+  }
+
+  .column-1 {
+    position: relative;
+  }
+
+  .row-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  select {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border: #ffa94d 2px solid;
+  }
+
+  .exercise-field-and-delete {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    margin: 2px 0px;
+  }
+
+  .exercise-field {
+    width: 70%;
+}
+
+.exercise-field,.number-field {
+  background-color: rgb(237, 237, 237);
+    border-color: rgb(245,245,245);
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.number-field {
+    width: 20px;
+    margin: 4px 0px;
+}
+
+  /* Buttons */
+
+  .button-container {
+    background-color: #F2EFE5;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    gap: 5px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+  .button-container > div {
+    position: relative;
+  }
+
+.training-button {
+    height: 40px;
+    width: 100%;
+    background-color: #F49F0A; 
+    border-color: #ffb326;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.training-button:hover {
+  background-color: #e3950b;
+}
+
+  .back-button {
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    border-color: #ffb326;
+    border-style: solid;
+    margin: 10px;
+    width: 125px;
+  }
+
+  .back-button:hover {
+    background-color: #F49F0A;
+  }
+
+  .add-button {
+    height: 40px;
+      background-color: rgba(0, 0, 0, 0);
+      border-color: #3adb00;
+      border-style: solid;
+      border-radius: 15px;
+      width: 100%;
+  }
+  
+  .add-button:hover {
+    background-color: #38d400;
+  }
+
+  .delete-button {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #ff3333;
+    border-style: solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .delete-button:hover {
+    background-color: #f50000;
+  }
+
+  .edit-button {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #7dcbff;
+    border-style: solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .edit-button:hover {
+    background-color: #6ec2fa;
+  }
+
+  .add-button.training-day {
+    left: 0;
+    margin-left: 10vw;
+    min-width: 200px;
+    width: auto;
+  }
+  
+  .add-button.training {
+    position: absolute;
+      right: 0;
+      margin-right: 10vw;
+      width: auto;
+  }
+  
+    .add-button.exercise {
+    margin-top: 7.5px;
+    width: auto;
+  }
+
+  .delete-button.exercise {
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+    border-radius: 20px;
+  }
+  
+  .delete-button.day {
+    position: absolute;
+    z-index: 1;
+    top: 12.5%;
+    right: calc(101% + 15px);
+    width: 40px;
+    height: 75%;
+  }
+
+  .delete-button.training {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 1;
+    left: calc(100% + 50px);
+    top: 12.5%;
+  }
+
+  .edit-button.training {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 1;
+    left: calc(100% + 15px);
+    top: 13%;
+  }
+
+/* Some space */
+
+#end {
+  margin-bottom: 175px;
+}
+
+  @media (max-width: 768px) {
+    .wrapper {
+      width: 90%;
+      margin-left: 50px;
+    }
+
+    .add-button.training {
+      margin-right: 2vw;
+  }
+
+    .add-button.training-day {
+      margin-left: 8vw;
+    }
+
+    .exercise-field {
+      width: 100%;
+    }
+  }

@@ -1,7 +1,6 @@
 package com.example.trainingwebapp.controllers.commands;
 
 import java.util.HashMap;
-import java.util.NoSuchElementException;
 
 public enum Command {
     LIST("LIST"),

@@ -18,9 +18,6 @@ import java.util.List;
 public abstract class CommandHandler {
 
     protected static final Integer INITIAL_ROW_ID = 2;
-    protected static final int SETS_INDEX = 0;
-    protected static final int REPS_INDEX = 1;
-    protected static final int WORK_WEIGHT_INDEX = 2;
 
     protected TrainingService trainingService;
     abstract public void handle(HttpServletRequest request, HttpServletResponse response) throws Exception;

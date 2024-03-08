@@ -1,9 +1,6 @@
 package com.example.trainingwebapp.controllers.commands;
 
-import com.example.trainingwebapp.models.dto.DayOfWeek;
-import com.example.trainingwebapp.models.dto.Exercise;
-import com.example.trainingwebapp.models.dto.Training;
-import com.example.trainingwebapp.models.dto.TrainingDay;
+import com.example.trainingwebapp.models.dto.*;
 import org.json.JSONArray;
 
 import javax.servlet.http.HttpServletRequest;

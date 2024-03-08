@@ -2,22 +2,13 @@ package com.example.trainingwebapp.controllers;
 
 import com.example.trainingwebapp.controllers.commands.*;
 import com.example.trainingwebapp.models.dao.TrainingDAOImpl;
-import com.example.trainingwebapp.models.dto.DayOfWeek;
-import com.example.trainingwebapp.models.dto.Exercise;
-import com.example.trainingwebapp.models.dto.Training;
-import com.example.trainingwebapp.models.dto.TrainingDay;
-import com.example.trainingwebapp.models.services.TrainingService;
-import com.example.trainingwebapp.models.services.TrainingServiceImpl;
-import org.json.JSONArray;
+import com.example.trainingwebapp.models.services.*;
 
 import javax.annotation.Resource;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.*;
 import javax.sql.DataSource;
 import java.io.IOException;
 import java.util.*;

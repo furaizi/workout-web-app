@@ -1,8 +1,7 @@
 package com.example.trainingwebapp.models.services;
 
 import com.example.trainingwebapp.models.dao.TrainingDAO;
-import com.example.trainingwebapp.models.dto.Training;
-import com.example.trainingwebapp.models.dto.TrainingDay;
+import com.example.trainingwebapp.models.dto.*;
 
 import java.util.List;
 
@@ -126,7 +125,7 @@ public class TrainingServiceImpl implements TrainingService {
                 .stream()
                 .filter(trDay -> trDay.getDay() == trainingDay.getDay())
                 .findFirst()
-                .get();
+                .orElseThrow();
 
         var exercises = trainingDay.getExercises();
         var trainingDayId = trainingDayWithId.getId();

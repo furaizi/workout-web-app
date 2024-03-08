@@ -11,7 +11,7 @@
 
         <div class="header-box">
             <div class="menu-box">
-                <form action="training-web-app" method="POST">
+                <form action="workout-web-app" method="POST">
                     <div class="menu-element">
                         <input type="submit" value="План тренувань" class="menu-element" />
                         <input type="hidden" name="command" value="LIST"/>

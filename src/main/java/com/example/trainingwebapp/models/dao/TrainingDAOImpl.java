@@ -1,9 +1,9 @@
-package com.example.trainingwebapp.model.dao;
+package com.example.trainingwebapp.models.dao;
 
-import com.example.trainingwebapp.model.dto.DayOfWeek;
-import com.example.trainingwebapp.model.dto.Exercise;
-import com.example.trainingwebapp.model.dto.Training;
-import com.example.trainingwebapp.model.dto.TrainingDay;
+import com.example.trainingwebapp.models.dto.DayOfWeek;
+import com.example.trainingwebapp.models.dto.Exercise;
+import com.example.trainingwebapp.models.dto.Training;
+import com.example.trainingwebapp.models.dto.TrainingDay;
 
 import javax.sql.DataSource;
 import java.sql.Connection;

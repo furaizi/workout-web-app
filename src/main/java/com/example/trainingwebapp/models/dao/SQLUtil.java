@@ -1,4 +1,4 @@
-package com.example.trainingwebapp.model.dao;
+package com.example.trainingwebapp.models.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

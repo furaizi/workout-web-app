@@ -1,6 +1,5 @@
-package com.example.trainingwebapp.controller;
+package com.example.trainingwebapp.controllers;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;

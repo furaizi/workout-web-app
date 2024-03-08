@@ -1,4 +1,4 @@
-package com.example.trainingwebapp.model.dto;
+package com.example.trainingwebapp.models.dto;
 
 import java.util.List;
 import java.util.Objects;

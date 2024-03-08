@@ -1,7 +1,6 @@
-package com.example.trainingwebapp.model.dto;
+package com.example.trainingwebapp.models.dto;
 
 import org.json.JSONObject;
-import org.json.JSONString;
 
 import java.util.Objects;
 

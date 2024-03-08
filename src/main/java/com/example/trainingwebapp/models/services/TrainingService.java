@@ -1,7 +1,6 @@
-package com.example.trainingwebapp.model.service;
+package com.example.trainingwebapp.models.services;
 
-import com.example.trainingwebapp.model.dto.Exercise;
-import com.example.trainingwebapp.model.dto.Training;
+import com.example.trainingwebapp.models.dto.Training;
 
 import java.util.List;
 
